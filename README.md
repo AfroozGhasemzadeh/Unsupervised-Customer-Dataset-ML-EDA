@@ -16,7 +16,7 @@ It includes 8,950 anonymized credit card customers and 16 numerical features, su
 - TENURE
 The dataset is fully numerical, making it ideal for clustering and dimensionality reduction techniques.
 # Notebooks
-  # Data Processing Notebook
+   # Data Processing Notebook
 This notebook focuses on preparing the dataset for modelling:
 - Handling missing values (median imputation, inf → NaN replacement)
 - Removing outliers where appropriate
@@ -25,7 +25,7 @@ This notebook focuses on preparing the dataset for modelling:
 - Generating and saving preprocessing figures in
 Customer Dataset Figures/Data Processing/
 This ensures a clean, standardized input for all clustering algorithms.
-  # Exploratory Data Analysis (EDA) Notebook
+   # Exploratory Data Analysis (EDA) Notebook
 The EDA notebook investigates the structure and distribution of the data:
 - Feature distributions and KDE plots
 - Correlation heatmaps
@@ -33,7 +33,7 @@ The EDA notebook investigates the structure and distribution of the data:
 - Summary statistics and behavioral patterns
 All EDA figures are saved in: Customer Dataset Figures/Data Processing/
 This step provides intuition about the dataset and helps guide modelling decisions.
-  # Modelling Notebook
+   # Modelling Notebook
 The modelling notebook evaluates multiple unsupervised learning algorithms to identify meaningful customer segments.
 The following clustering methods were explored:
 Clustering Algorithms
